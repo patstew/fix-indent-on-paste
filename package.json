@@ -1,0 +1,14 @@
+{
+  "name": "fix-indent-on-paste",
+  "main": "./lib/fix-indent-on-paste",
+  "version": "0.0.0",
+  "description": "Fixes atom indent on paste behaviour",
+  "keywords": ["paste", "indentation"],
+  "repository": "https://github.com/patstew/fix-indent-on-paste",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.14.0 <2.0.0"
+  },
+  "dependencies": { "underscore-plus": ""
+  }
+}
