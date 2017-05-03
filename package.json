@@ -1,7 +1,7 @@
 {
   "name": "fix-indent-on-paste",
   "main": "./lib/fix-indent-on-paste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fixes atom indent on paste behaviour",
   "keywords": [
     "paste",
