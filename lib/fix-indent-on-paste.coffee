@@ -9,7 +9,7 @@ LineRegExp = /[^\r\n]+/
 module.exports =
 
   initialize: (state) ->
-    console.log("Monkey patching selection")
+    # console.log("Monkey patching selection")
 
     atom.commands.add 'atom-text-editor',
       'fix-indent-on-paste:paste_raw': (options={}) ->
@@ -56,7 +56,7 @@ module.exports =
             if options.indentBasis?
               indentAdjustment -= options.indentBasis
 
-          console.log("Indent", @editor.indentLevelForLine(firstNonNewline[0]), indentAdjustment, desiredIndentLevel, @editor.indentLevelForLine(precedingText), options.indentBasis)
+          # console.log("Indent", @editor.indentLevelForLine(firstNonNewline[0]), indentAdjustment, desiredIndentLevel, @editor.indentLevelForLine(precedingText), options.indentBasis)
 
           firstLine = lines.shift()
           @adjustIndent(lines, indentAdjustment)
